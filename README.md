@@ -39,8 +39,7 @@ URL中传入请求的地址，Listener中传入监听器回调对象，最后别
             }
         }).DeliverData(msg);
 ```
-说明： 在需要线程间切换更新UI时，需要先构造一个Message对象,然后使用HandlerPorxy对象的attach方法中传入一个SwitchCallBack回调对象
-来完成具体的操作，最后需要调用DeliverData方法来触发线程切换。
+说明： 在需要线程间切换更新UI时，需要先构造一个Message对象,然后使用HandlerPorxy对象的attach方法进行绑定，在该方法中需要传入一个SwitchCallBack回调对象来完成具体的操作，最后需要调用DeliverData方法来触发线程切换。
 
 ##### OneMoreThing：
 在进行跨组件通信时，一定要在被通信组件中进行订阅和注册操作，例如，一个service要想和一个activity通信，需要在activity中先通过以下方式进行订阅和注册
