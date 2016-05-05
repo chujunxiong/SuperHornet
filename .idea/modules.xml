@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SuperHornet.iml" filepath="$PROJECT_DIR$/SuperHornet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/super_hornet/super_hornet.iml" filepath="$PROJECT_DIR$/super_hornet/super_hornet.iml" />
+    </modules>
+  </component>
+</project>
